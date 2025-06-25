@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.container {
+    background-color: rgb(238, 163, 175);
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.btn {
+    padding: 0.5rem 2rem;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.btnPrimary {
+    color: white;
+    background-color: rgb(54, 134, 114);
+}
+
+.btnSecondary {
+    background-color: rgb(168, 68, 163);
+    padding: 0.5rem 1rem;
+}
+
+.moving:hover {
+    margin-left: 200px;
+}
